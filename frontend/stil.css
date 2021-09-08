@@ -1,0 +1,83 @@
+body{
+    box-sizing: border-box;
+}
+.kontejner
+{
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.polica
+{
+    display: flex;
+    flex-direction: column;
+    border: black solid 2px;
+    /* align-items: center; */
+    padding: 1em 0 ;
+    
+    gap: 1em;
+    
+}
+
+.redovi
+{
+    border:black solid 1px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1em;
+    margin: auto 10px;
+    position: relative;
+}
+.redovi .zanr{
+
+    font-size: 16px;
+    position: absolute;
+    top: -2.2em;
+}
+.pod-red{
+    display: flex;
+    height: 2em;
+    width: 5em;
+    background-color: brown;
+}
+.knjiga
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    
+}
+.ostalo
+{
+    width: 100%;
+    
+}
+.visina
+{
+    border:black solid 1px;
+    flex-grow: 4;
+    width: 100%;
+    background-color: coral;
+    display: flex;
+}
+.visina p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    align-self: center;
+    justify-content: flex-end;
+    margin: 0;
+    writing-mode: tb-rl;
+    font-size: 8px;
+    transform: rotate(-180deg);
+}
+.upis
+{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    margin: 10px auto;
+}
